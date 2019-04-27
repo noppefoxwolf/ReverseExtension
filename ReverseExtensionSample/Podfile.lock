@@ -6,9 +6,13 @@ DEPENDENCIES:
   - ReverseExtension (from `../`)
   - TouchVisualizer
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TouchVisualizer
+
 EXTERNAL SOURCES:
   ReverseExtension:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   ReverseExtension: e658309467ab80870648e32069d14b2ff4a09863
@@ -16,4 +20,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: b8298876d13500af76d270fcdd0c8fad6d80316c
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.7.0.beta.3
